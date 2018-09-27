@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Fragment Kepala-->
+        <!--<FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/heads_container">
+        </FrameLayout>-->
+
+        <!--Fragment Badan-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:id="@+id/bodies_container">
+        </FrameLayout>
+
+        <!--Fragment Kaki-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/legs_container">
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      By :
+    Asa Nara Pratama
+    Istaghna Faza Kamil"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Sumber  : Google"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
